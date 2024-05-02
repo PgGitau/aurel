@@ -1,0 +1,18 @@
+.active {
+    text-decoration: underline;
+}
+
+.menu-items-left li,
+.menu-items-right li {
+    cursor: pointer;
+}
+
+.logo {
+    height: 100%;
+}
+
+.logo P {
+    font-family: "Sevillana", cursive;
+    font-style: normal;
+    font-size: 35px;
+}

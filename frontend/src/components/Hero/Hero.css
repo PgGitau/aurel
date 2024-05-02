@@ -1,0 +1,49 @@
+.hero-container {
+    height: 550px;
+}
+
+.mySwiper {
+    height: 550px;
+    width: 100%;
+    z-index: 1;
+}
+
+.swiper-slide {
+    z-index: 1;
+}
+
+.swiper-slide::after {
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #020817;
+    opacity: .3;
+    z-index: 2;
+}
+
+.mySwiper img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.mySwiper .hero-text {
+    top: 200px;
+    z-index: 3;
+}
+
+.mySwiper .hero-text.mens {
+    width: 50%;
+    left: 2.5%;
+}
+
+.mySwiper .hero-text.womens,
+.mySwiper .hero-text.kids,
+.mySwiper .hero-text.all {
+    width: 95%;
+    left: 2.5%;
+}
